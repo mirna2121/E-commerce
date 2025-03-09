@@ -1,0 +1,29 @@
+#SideMenu{
+    width: 250px;
+    height: 100vh;
+    .icon{
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--mainRed);
+    }
+    #logo{
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--mainRed);
+    }
+   
+    #link:hover{
+        background: var(--mainYellow);
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    #link{
+        padding: 1rem;
+        transition: ease all 400ms;
+        cursor: pointer;
+    }
+    .activeLink {
+        background: var(--mainYellow);
+        border-radius: 1rem;
+    }
+}
